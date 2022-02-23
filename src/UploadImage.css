@@ -1,0 +1,82 @@
+#grid-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.app-title {
+    margin-top: -3px;
+}
+
+.empty-image-description {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.empty-preview-container {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.info-title {
+    margin-bottom: 20px;
+}
+
+.ui-textarea.info-description {
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.image-preview-container img {
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.file-list {
+    list-style: none;
+    display: flex;
+    margin-top: -6px;
+    margin-left: -40px;
+}
+
+.file-blocks, .image-block {
+    background-color: grey;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: contain;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.new-image-button-container {
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+#input-image,
+#input-image-update {
+    display: none;
+}
+
+.botton-div {
+    display: flex;
+}
+
+.loader-image {
+    margin-right: auto;
+}
+
+.submit-button-container {
+    margin-top: 4px;
+    margin-right: 10px;
+}
